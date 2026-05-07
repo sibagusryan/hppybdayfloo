@@ -176,6 +176,25 @@ body{
   pointer-events: none;
   z-index: 9999;
 }
+.next-btn{
+  display:inline-block;
+  padding:12px 28px;
+  background: rgba(255,255,255,0.15);
+  border:2px solid white;
+  border-radius:30px;
+  color:white;
+  font-size:20px;
+  font-family:'Josefin Sans';
+  text-decoration:none;
+  transition:0.3s;
+  backdrop-filter: blur(5px);
+}
+
+.next-btn:hover{
+  background:white;
+  color:#131313;
+  transform:scale(1.05);
+}
 </style>
 
 <div>
@@ -255,8 +274,12 @@ body{
 
     
     <h1 class="bday">Happy Birthday <a target="_self" rel="noopener noreferrer" href="../../index.html"> Bunga</a></h1>
-    <h1 class="blove">I love you bunga!</h1>
+    <h1 class="blove">I love you </h1>
     <h1 class="bconves">by: Ryan</h1>
+    <div style="text-align:center; margin-top:20px;">
+    <a href="../../Tree/conves.html" class="next-btn">
+    Open Message 💌
+  </a>
   </div>
 </div>
 </html>
@@ -411,5 +434,6 @@ setInterval(() => {
   }, duration * 1000);
 
 }, 200);
+
 
 </script>
